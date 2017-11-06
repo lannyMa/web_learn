@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    var a = 12;
+    var b = 13;
+    function maotai(a,b,num) {
+        console.log(a,b,num);
+    }
+</script>
+
+<!--//jsonp可以返回任意格式字符串,但一般返回的是json格式字符串-->
+<script type="text/javascript" src="http://192.168.1.101:1234/getall?cb=maotai"></script>
+
+
+</body>
+</html>

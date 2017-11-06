@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        html,body{
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body id="bodyEle" style="background-color: white">
+
+
+<script>
+    var oBody = document.getElementById("bodyEle");
+    oBody.onclick=function () {
+        var cl = oBody.style.backgroundColor;
+        switch (cl){
+            case 'white':
+                this.style.backgroundColor="yellow";
+                break;
+            case 'yellow':
+                this.style.backgroundColor="green";
+                break;
+            case 'green':
+                this.style.backgroundColor="blue";
+                break;
+            case 'blue':
+                this.style.backgroundColor="pink";
+                break;
+            default:
+                this.style.backgroundColor="white"
+        }
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "maotai",
+    "gender": "male",
+    "age": 22,
+    "favor": "apple",
+    "birth": "baseball"
+  },
+  {
+    "id": 2,
+    "name": "yifei",
+    "gender": "female",
+    "age": 21,
+    "favor": "apple",
+    "birth": "baseball"
+  }
+]

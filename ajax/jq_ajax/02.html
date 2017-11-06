@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jq ajax</title>
+</head>
+<body>
+<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+<script type="text/javascript">
+    // jsonp默认是get, jsonp默认使用callback 并且随机生成字符串作为函数名
+    $.ajax({
+        url: "https://suggest.taobao.com/sug?code=utf-8&q=%E5%9B%B4%E5%B7%BE",
+        dataType: "jsonp",
+        success: function (data) {
+            console.log(data);
+        }
+    });
+</script>
+</body>
+</html>

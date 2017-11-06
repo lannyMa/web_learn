@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body id="BodyEle" style="background-color: white">
+
+
+<script>
+    var oBody = document.getElementById("BodyEle");
+    oBody.onclick = function () {
+        var bg = this.style.backgroundColor;
+//        alert(bg);
+//        if (bg === 'white') {
+//            oBody.style.backgroundColor = 'black';
+//        } else {
+//            this.style.backgroundColor = 'white';
+//        }
+        this.style.backgroundColor==='white'?this.style.backgroundColor='black':this.style.backgroundColor='white';
+
+    }
+
+</script>
+</body>
+</html>
