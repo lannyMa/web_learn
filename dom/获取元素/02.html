@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>shang xia wen</title>
+</head>
+<body>
+
+<div id="tab">
+    <ul>
+        <li>视频</li>
+        <li name="f1">音乐</li>
+        <li name="f1">图片</li>
+    </ul>
+</div>
+
+<input type="radio" value="男" name="sex" checked="checked">男
+<input type="radio" value="女" name="sex">女
+
+<input type="radio" value="已婚" name="marry">已婚
+<input type="radio" value="未婚" name="marry">未婚
+
+<button  id="btn">获取性别</button>
+
+<script>
+    var oF = document.getElementsByName("f1");
+    console.log(oF);
+    console.log(oF.length);
+
+    var oBtn = document.getElementById("btn");
+    oBtn.onclick = function () {
+        var oSex = document.getElementsByName("sex");
+        var cur;
+        for (var i = 0; i < oSex.length; i++) {
+            if (oSex[i].checked === true) {
+                cur = oSex[i].value;
+                break;
+            }
+        }
+        console.log(cur);
+    }
+
+
+
+</script>
+</body>
+</html>

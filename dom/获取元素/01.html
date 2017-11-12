@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>shang xia wen</title>
+</head>
+<body>
+
+<div id="tab">
+    <ul>
+        <li>视频</li>
+        <li>音乐</li>
+        <li>图片</li>
+    </ul>
+</div>
+<div id="tab">
+    <p>the 2nd tab</p>
+</div>
+<ul>
+    <li>转载....</li>
+</ul>
+
+<script>
+    var oDiv = document.getElementById("tab");
+    oDiv.style.border="1px solid pink";
+    console.log(oDiv);
+
+    var oLis = document.getElementsByTagName("li");
+    console.log(oLis);
+
+    var oLis2 = oDiv.getElementsByTagName("li");
+    console.dir(oLis2);
+    console.log(typeof oLis2);
+    console.log(oLis2[1]);
+    console.log(oLis2.length);
+</script>
+</body>
+</html>

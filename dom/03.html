@@ -41,19 +41,28 @@
 
     console.log("-----------模拟获取子元素---------------");
 
-    function getMyChild(el) {
+    // 获取子元素指定的元素
+    function getMyChild(node, tagname) {
         var ch_el = [],
-            ch_node = oDiv.childNodes;
+            ch_node = node.childNodes;
+        //taname 判断没传或者传递为""
         for (var i = 0; i < ch_node.length; i++) {
-            if (ch_node[i].nodeType === 1) {
+            if (tagname) {
+                if (ch_node[i].nodeType === 1) {
 //                console.log(ch_node[i]);
+                    var cur = ch_node[i];
+                    if (cur.nodeName.toLowerCase() === tagname.toLowerCase()) {
+                        ch_el.push(ch_node[i]);
+                    }
+                }
+            } else {
                 ch_el.push(ch_node[i]);
             }
         }
         return ch_el;
     }
 
-    console.log(getMyChild(oDiv));
+    console.log(getMyChild(oDiv, "ul"));
     console.log("--------------------------");
 
     console.log(oDiv.children);   //获取元素子节点

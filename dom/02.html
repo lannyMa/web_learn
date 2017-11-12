@@ -2,39 +2,72 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>shang xia wen</title>
+    <title>8种方法获取元素--通过兄弟关系获取元素</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
-
-<div id="tab">
+<div id="div1">
+    <h1>maotaipeixun</h1>
     <ul>
-        <li>视频</li>
-        <li name="f1">音乐</li>
-        <li name="f1">图片</li>
+        <li>nodejs</li>
+        <li>django</li>
+        <!--// 我是老三-->
+        <li id="li3">golang</li>
+        <li>java</li>
     </ul>
 </div>
 
-<input type="radio" value="男" name="sex" checked="checked">男
-<input type="radio" value="女" name="sex">女
-
-<input type="radio" value="已婚" name="marry">已婚
-<input type="radio" value="未婚" name="marry">未婚
-
-
 <script>
-    var oF = document.getElementsByName("f1");
-    console.log(oF);
-    console.log(oF.length);
+    var oLi = document.getElementById("li3");
+    // 获取哥哥节点
+    //    console.log(oDiv.previousSibling.previousSibling);
 
-    var oSex = document.getElementsByName("sex");
-    var cur;
-    for (var i = 0; i < oSex.length; i++) {
-        if (oSex[i].checked === true) {
-            cur = oSex[i].value;
-            break;
+    function prev(el) {
+        var pre = el.previousSibling;
+        while (pre && pre.nodeType !== 1) {
+            pre = pre.previousSibling;
         }
+        console.log(pre);
+        return pre;
     }
-    console.log(cur);
+
+    console.log(prev(oLi));
+    //    for(var i =0;i<10;i++){
+    //        console.log(i);
+    //    }
+    //    while (i<10){
+    //        console.log(i);
+    //        i++;
+    //    }
+
+    //获取所有哥哥元素节点
+    function prevAll(el) {
+        var pre = el.previousSibling,
+            arr = [];
+        while (pre) {
+            if (pre.nodeType === 1) {
+                arr.unshift(pre);
+            }
+            pre = pre.previousSibling;
+        }
+        return arr;
+    }
+    console.log(prevAll(oLi));
+
+    //获取下一个弟弟
+    //获取所有弟弟
+    //获取相邻两个
+    //获取所有兄弟
+
 </script>
 </body>
 </html>
