@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+</head>
+<body>
+
+</body>
+<script>
+    var oDiv = document.createElement("div");
+    oDiv.id = "div1";
+    oDiv.style.width = "400px";
+    oDiv.style.height = "100px";
+    oDiv.style.border = "1px solid red";
+    document.body.appendChild(oDiv);
+
+    var oP = document.createElement("p");
+    oP.id = "p1";
+    oP.style.width = "400px";
+    oP.style.height = "100px";
+    oP.style.border = "1px solid green";
+    document.body.appendChild(oP);
+
+    var oP2 = document.createElement("p");
+    oP2.id = "p2";
+    oP2.style.width = "400px";
+    oP2.style.height = "100px";
+    oP2.style.border = "1px solid purple";
+    document.body.insertBefore(oP2, oP);
+
+    //删除
+    oDiv.parentNode.removeChild(oDiv);
+
+    //克隆当前
+    var clop = oP.cloneNode();
+    clop.style.backgroundColor = "pink";
+    document.body.appendChild(clop);
+
+    //克隆子子孙孙,默认false
+    var clop2 = oP.cloneNode(true);
+
+    //替换
+    var dd = document.createElement("div");
+    dd.style.width = "400px";
+    dd.style.height = "100px";
+    dd.style.border = "5px solid purple";
+
+    oP.parentNode.replaceChild(dd, oP);
+
+</script>
+
+</html>

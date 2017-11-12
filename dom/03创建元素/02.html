@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+    <style>
+
+    </style>
+</head>
+<body>
+
+<button id="btn">登录</button>
+</div>
+
+<script>
+    var layer = document.createElement("div");
+    layer.id = "div1";
+    layer.style.width = "300px";
+    layer.style.height = "200px";
+    layer.style.border = "5px solid red";
+
+    var btn = document.getElementById('btn');
+    btn.onclick = function () {
+        document.body.appendChild(layer);
+    };
+    layer.onclick = function () {
+        document.body.removeChild(layer);
+    };
+
+
+</script>
+</body>
+</html>
