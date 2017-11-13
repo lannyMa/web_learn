@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>demo</title>
+</head>
+<body>
+<button id="btn">登录按钮</button>
+
+<script>
+    var oDiv = document.createElement("div");
+    oDiv.id = "div1";
+    oDiv.style.width = "300px";
+    oDiv.style.height = "100px";
+    oDiv.style.border = "10px solid green";
+    var btn = document.getElementById("btn");
+    document.body.appendChild(oDiv);
+
+
+    var oP = document.createElement("p");
+    oP.style.width = "300px";
+    oP.style.height = "100px";
+    oP.style.border="1px solid red";
+    document.body.replaceChild(oP,oDiv);
+
+    var cloOp=oP.cloneNode(oP);
+    cloOp.style.backgroundColor="red";
+    document.body.appendChild(cloOp);
+
+//    document.body.removeChild(oP);
+
+</script>
+</body>
+</html>

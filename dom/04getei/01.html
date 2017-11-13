@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>getei</title>
+    <style>
+        .div1 {
+            width: 300px;
+            height: 300px;
+            border: 1px solid red;
+        }
+    </style>
+</head>
+<body>
+<div class="div1" id="div1">
+
+</div>
+<script>
+    var oDiv = document.getElementById("div1");
+    oDiv.onclick = function () {
+        //js 操作的是行内样式,无法获取到非行内样式
+        console.log(oDiv.style.width);
+        //1 可以改变
+        oDiv.style.backgroundColor = "pink";
+        console.log(oDiv.style.backgroundColor);
+
+        // 2 可以
+//        var bgS = oDiv.style;
+//        bgS.backgroundColor = "pink";
+//3 不可以
+//        var bg = oDiv.style.backgroundColor;
+//        bg = "green";
+
+    }
+</script>
+</body>
+</html>
