@@ -15,7 +15,7 @@ var p2 = {
     }
 };
 
-// 工厂模式: 简化代码.实现函数的封装
+// 工厂模式: 减少冗余代码.实现函数的封装
 
 function writeNode(name,age) {
     var obj = {};
