@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<script>
+
+    // 2.3预解释:只发生在当前作用域:window; 函数的预解释,是当函数执行时候才进行的
+    var num = 12;
+    var obj = {
+        name: "zhufeng",
+        age:22
+    };
+    function fn(num1,num2) {
+        var total = num1+num2;
+        console.log(total);
+    };
+
+
+</script>
+</body>
+</html>

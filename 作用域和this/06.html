@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    /**
+     *私有作用域出现的一个变量不是私有的,则往上一级作用域查找,上级作用域没有则继续向上级查找,一直找到
+     * window为止,如果window也没有了?
+     *如果是获取值,则报错
+     *如果是设置值,则相当于给window设置了一个属性
+     *
+     * js代码一旦报错,则不往下执行了.
+     */
+
+
+    function fn() {
+        console.log(total);
+        total = 100;
+    }
+
+    fn();
+    console.log(total);
+</script>
+</body>
+</html>

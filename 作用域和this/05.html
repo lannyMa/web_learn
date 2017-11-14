@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //带var和不带var的区别:
+    // 只有带var的才可以预解释,所以在赋值的前面不会报错.不带var的不会进行预解释,赋值前调用会报错
+
+
+    console.log(num); //undefined
+    var num = 100;
+
+    console.log(num2); //Uncaught ReferenceError: num2 is not defined
+    num2 = 200;
+
+    // 相当于给window 增加了一个num3属性,属性值是12 +给全局作用域增加了全局变量
+    var num3 = 12;
+    console.log(num3); //12 windows.num3
+
+    // 仅仅相当于给window 增加了一个num3属性,属性值是12
+    num4 = 12;
+    console.log(num4); //  windows.num3
+</script>
+</body>
+</html>
