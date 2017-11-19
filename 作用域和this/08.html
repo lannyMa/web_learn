@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+
+<script>
+    var p1 = {name: "maotai"};
+    console.log(age); //1.即使条件不成立,条件里的表达式也会进行预解释.
+    if ("age" in p1) { // 是否是对象的一个属性
+        var age = 22;
+        console.log("name in p1")
+    }
+    console.log("--------------------------------");
+
+    // 2.匿名函数的预解释:  只对等号左边与解释
+    fn();
+
+    function fn() {
+        console.log("fn is running!");
+    }
+
+    fn();
+    console.log("--------------------------------");
+
+    // 等号右边的不会进行预解释.
+    //    fn2(); //报错
+    var fn2 = function () {
+        var favor = "orange";
+        console.log("fn2 is running!")
+    };
+    fn2();
+
+    // 3. 自执行函数的预解释: 不进行预就解释, 执行的时候,定义+执行
+    ~function (num) {
+        console.log("I am zi zhi xing fun " + num);
+    }(100);
+
+    // 4, return下面的语句也会进行预解释,但是return后面的语句不进行预解释
+    console.log("--------------------------------");
+
+
+    function fn3() {
+        console.log(num3);
+        return function () {
+
+        };
+        var num3 = 330;
+    }
+    fn3();
+
+
+</script>
+</body>
+</html>

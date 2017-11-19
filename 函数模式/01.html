@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    function Fn() {
+        // this->f1
+        this.x = 100;
+        this.getX = function () {
+            // this->需要看getX执行的时候才知道
+            console.log(this.x);
+        }
+    }
+
+    var f = new Fn;
+    f.getX();
+
+    var ss = f.getX;
+    ss();
+</script>
+</body>
+</html>

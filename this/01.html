@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .div1,.div2{
+            width: 500px;
+            height: 200px;
+            border: 1px solid red;
+        }
+    </style>
+</head>
+<body>
+
+<div id="div1" class="div1">
+</div>
+<div id="div2" class="div2">
+</div>
+<script>
+    /*
+this代表当前执行函数的主体.js中context代表当前执行函数的环境
+
+- 1,和在哪定义的没关系
+- 2,和执行环境没关系
+- 3,仅和谁在执行(执行主体)有关系
+    */
+
+    // 1. 如果函数前没. 则,this是window
+    function fn() {
+        console.log(this);
+    }
+    obj = {fn: fn};
+    fn();    // this->window
+    obj.fn(); // this->obj
+
+    // 2.自执行函数(前面不可能有点)里的this永远是window
+
+    // 3.给元素绑定方法,点击时候触发事件,事件中的this代表当前元素
+    document.getElementById("div1").onclick=fn;
+    document.getElementById("div2").onclick=function () { fn() };
+</script>
+</body>
+</html>

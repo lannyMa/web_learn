@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>yu jeishi </title>
+</head>
+<body>
+
+
+<script>
+    // 5. 变量名冲突: js很懒,声明过的变量就不会再声明了,但是会重新赋值
+     // 函数与解释: 声明+定义一并完成
+    fn();  // ok!!!
+    function fn() {
+        console.log("ok")
+    }
+
+    fn(); // ok!!!
+    fn = 22;
+    fn(); // Uncaught TypeError: fn is not a function
+    function fn() { console.log("ok !!!");}
+    fn(); //Uncaught TypeError: fn is not a function
+</script>
+</body>
+</html>
