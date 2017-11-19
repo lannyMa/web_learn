@@ -10,3 +10,7 @@ p1 = new createJs("maotai", 22);
 p1.writeJs();
 p2 = new createJs("maotai2", 23);
 p2.writeJs();
+
+console.log(p1.writeJs===p2.writeJs);
+
+

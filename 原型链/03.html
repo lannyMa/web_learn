@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function fn() {
+        console.log("ok");
+    }
+
+    f = new fn();
+    console.log(fn);
+    console.log(fn.prototype === f.__proto__);
+</script>
+</body>
+</html>
