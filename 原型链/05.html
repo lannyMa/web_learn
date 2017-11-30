@@ -21,6 +21,18 @@
     };
     var f = new Fn();
     console.log(f.constructor);
+/*
+*
+给原型添加属性
+    - Fn.prototype.sum=function{}
+    - Fn.prototype={} //constructor指向了Object的原型
+修改原型既有的属性:
+    f1.__proto__.sum//ie禁止
+    Fn.prototype.sum
+
+*
+* */
+
 </script>
 </body>
 </html>
