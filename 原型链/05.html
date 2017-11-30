@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>原型扩展</title>
+</head>
+<body>
+<script>
+    function Fn() {
+        this.x = 1992;
+    }
+
+    Fn.prototype = {
+        constructor: Fn,  // 如果不指定.就会变成object,而非本函数
+        getX: function () {
+
+        },
+        getY: function () {
+
+        }
+    };
+    var f = new Fn();
+    console.log(f.constructor);
+</script>
+</body>
+</html>

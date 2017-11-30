@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // 是否可mei ju
+    Object.prototype.aaa = function () {
+    };
+    var obj = {name: "maotai", age: 22};
+    for (var key in obj) {
+        console.log(key);
+    } // name age aaa 都会遍历出来
+    console.log("-------------");
+    for (var key in obj) {
+        if(obj.propertyIsEnumerable(key)){
+            console.log(key);
+        }
+    } // name age 会遍历出来
+</script>
+</body>
+</html>

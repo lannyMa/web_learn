@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>xx</title>
+</head>
+<body>
+<script>
+    function Fn() {
+        this.x = 100;
+        this.y = 200;
+        this.getY = function () {
+            console.log(this.y)
+        }
+    }
+
+    Fn.prototype = {
+        constructor: Fn,
+        y: 300,
+        getX: function () {
+            console.log(this.x)
+        },
+        getY: function () {
+            console.log(this.y)
+        }
+    };
+    var f = new Fn();
+    f.getX();           //100  调用私有作用域的
+    f.__proto__.getX(); //undefinded
+    f.__proto__.getY(); //300 调用原型上的, f.__proto__.y   1.看前面的.  2,替换 3,按照原型链模式去查找
+
+    /**
+     * 1,this是谁
+     *  this.xxx= xxx, this是实例本身.
+     *  getX=function(){} this看前面的点   1.看前面的.  2,替换 3,按照原型链模式去查找
+     *
+     *
+     */
+//    Fn.prototype.getZ();
+
+    // 2,数组的链式写法,  return this;
+    // 区别this
+    Array.prototype.myUnique = function () {
+        obj = {};
+        for (var i = 0; i < this.length; i++) {
+            var cur = this[i];
+            if (obj[cur] == this[i]) {
+                this[i] = this[this.length - 1];
+                this.length--;
+                i--;
+                continue;
+            }
+            obj[cur] = cur;
+        }
+        obj = null;
+        return this; // 用于链式书写, 因为前者的结果也是一个数组.
+    };
+    var arr = [1, 2, 2, 3, 3, 4, 4, 4, 4];
+    arr.myUnique().pop();             // this -> arr
+    //    Array.prototype.myUnique(); // this -> Array.prototype.
+    console.log(arr);
+
+
+</script>
+</body>
+</html>

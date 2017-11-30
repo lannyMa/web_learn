@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //2,给内置类增加数组去重方法
+//    Array.prototype.unique = function () {
+//
+//    };
+
+    // 这种方法被浏览器屏蔽掉了
+    Array.prototype = {
+        constructor: Array,
+        unique: function () {
+
+        }
+    };
+    console.log(Array.prototype);
+
+    Array.prototype.sort=function () {
+      console.log(this);
+    };
+    var ary = [1,2,3,4,5];
+    ary.sort();
+    console.log(ary);
+</script>
+</body>
+</html>
