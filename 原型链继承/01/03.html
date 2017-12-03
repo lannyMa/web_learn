@@ -6,13 +6,17 @@
 </head>
 <body>
 <script>
-    var obj = {getX:function () {
+    var obj = {
+        getX: function () {
+        }
+    };
 
-    }};
     function Fn() {
 
     }
-    Fn.prototype=obj;
+
+    Fn.prototype = obj;
+
     f = new Fn;
     console.log(f.constructor); // 指向了object
     console.log(Fn.prototype); //里面没有constructor 了,缺点是当obj改动了,对应的实例属性也跟着边
