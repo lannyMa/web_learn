@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function A() {
+        this.x = 100;    
+    }
+    A.prototype.getX=function () {
+        console.log(this.x);
+    };
+    function B() {
+        this.y = 200;
+    }
+    B.prototype=new A;
+    var b = new B;
+    console.log(b.__proto__)
+</script>
+</body>
+</html>
