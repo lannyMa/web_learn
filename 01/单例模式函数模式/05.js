@@ -25,6 +25,5 @@ p2.writeJs();
 var arr=[];
 var arr = new Array[]; //(构造函数方法创建)arr是数据类的一个实例
 
-
 */
 

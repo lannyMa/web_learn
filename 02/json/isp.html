@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>isp</title>
+</head>
+<body>
+<table border="1px" id="tb">
+    <tr>
+        <td>mobile</td>
+        <td>isp</td>
+        <td>success</td>
+    </tr>
+    <tr>
+        <td>13612345678</td>
+        <td>中国移动_广东</td>
+        <td>true</td>
+    </tr>
+</table>
+<script src="isp.js"></script>
+<script>
+    var oTd = document.getElementById("tb");
+    var trs = oTd.getElementsByTagName("tr");
+    for (var i = 0; i < trs.length; i++) {
+        trs[i].onmouseover = function () {
+            this.style.backgroundColor = "pink";
+        };
+        trs[i].onmouseout = function () {
+            this.style.backgroundColor = "";
+        };
+    };
+
+
+    for (var i = 0; i < arr.length; i++) {
+        var oTr = document.createElement("tr");
+        oTr.innerHTML = "<td>" + arr[i].mobile + "</td><td>" + arr[i].isp + "</td><td>" + arr[i].success + "</td>";
+        oTd.appendChild(oTr);
+    }
+
+</script>
+</body>
+</html>
