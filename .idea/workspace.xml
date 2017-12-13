@@ -2,24 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5dc03581-2f8f-44a1-9202-f149ec9755c2" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/02/json/isp.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02/json/isp.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02/正式课第二周第二天/ajaxDate.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02/正式课第二周第二天/dom映射.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02/正式课第二周第二天/json-bind.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02/正式课第二周第二天/tableSort/data.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02/正式课第二周第二天/tableSort/style.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02/正式课第二周第二天/tableSort/tab.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02/正式课第二周第二天/tableSort/完整版表格排序.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02/正式课第二周第二天/utils.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02/正式课第二周第二天/数据绑定 DOM回流和重绘和文档碎片.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02/正式课第二周第二天/表格排序以及DOM映射.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02/02.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02/03.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02/04.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02/json/02.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/01/作用域和this/05.html" afterPath="$PROJECT_DIR$/01/作用域和this/05带var.html" />
-      <change beforePath="$PROJECT_DIR$/01/作用域和this/06.html" afterPath="$PROJECT_DIR$/01/作用域和this/06.html" />
-      <change beforePath="$PROJECT_DIR$/01/作用域和this/08.html" afterPath="$PROJECT_DIR$/01/作用域和this/08.html" />
-      <change beforePath="$PROJECT_DIR$/01/作用域和this/函数执行.png" afterPath="$PROJECT_DIR$/01/作用域和this/02函数执行.png" />
-      <change beforePath="$PROJECT_DIR$/01/单例模式函数模式/05.js" afterPath="$PROJECT_DIR$/01/单例模式函数模式/05.js" />
+      <change beforePath="$PROJECT_DIR$/01/原型链/demo.html" afterPath="$PROJECT_DIR$/01/原型链/demo.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,58 +21,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="01.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01/this/01.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="05.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01/原型链/05.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="06.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01/原型链/06.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="07.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01/原型链/07.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="633">
-              <caret line="65" column="7" lean-forward="true" selection-start-line="65" selection-start-column="7" selection-end-line="65" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="07.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01/原型链/07.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="demo.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/01/原型链/demo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="360">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="02.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02/02.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="03.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02/03.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="04.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/02/04.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="307">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="02.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02/json/02.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="577">
+              <caret line="30" column="17" lean-forward="true" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -110,18 +91,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dom映射.png" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dom映射.png" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/02/正式课第二周第二天/dom映射.png">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="06.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01/原型链/06.js">
+      <file leaf-file-name="data.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02/正式课第二周第二天/tableSort/data.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="01.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/01/this/01.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="333">
+              <caret line="32" column="14" lean-forward="true" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -161,13 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/单例模式函数模式/01.js" />
-        <option value="$PROJECT_DIR$/单例模式函数模式/02.js" />
-        <option value="$PROJECT_DIR$/单例模式函数模式/03.js" />
-        <option value="$PROJECT_DIR$/单例模式函数模式/04.js" />
-        <option value="$PROJECT_DIR$/作用域和this/02.html" />
-        <option value="$PROJECT_DIR$/作用域和this/01.html" />
-        <option value="$PROJECT_DIR$/作用域和this/04.js" />
         <option value="$PROJECT_DIR$/作用域和this/05变量定义的一个细节.css" />
         <option value="$PROJECT_DIR$/作用域和this/03.js" />
         <option value="$PROJECT_DIR$/作用域和this/05.html" />
@@ -212,6 +196,13 @@
         <option value="$PROJECT_DIR$/01/作用域和this/08.html" />
         <option value="$PROJECT_DIR$/01/单例模式函数模式/05.js" />
         <option value="$PROJECT_DIR$/01/单例模式函数模式/06.js" />
+        <option value="$PROJECT_DIR$/01/this/01.html" />
+        <option value="$PROJECT_DIR$/01/原型链/demo.html" />
+        <option value="$PROJECT_DIR$/02/json/02.html" />
+        <option value="$PROJECT_DIR$/02/json/02.js" />
+        <option value="$PROJECT_DIR$/02/03.js" />
+        <option value="$PROJECT_DIR$/02/03.html" />
+        <option value="$PROJECT_DIR$/02/04.html" />
       </list>
     </option>
   </component>
@@ -256,56 +247,7 @@
             <path>
               <item name="web_learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="web_learn" type="462c0819:PsiDirectoryNode" />
-              <item name="01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web_learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web_learn" type="462c0819:PsiDirectoryNode" />
-              <item name="01" type="462c0819:PsiDirectoryNode" />
-              <item name="nginx" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web_learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web_learn" type="462c0819:PsiDirectoryNode" />
-              <item name="01" type="462c0819:PsiDirectoryNode" />
-              <item name="nginx" type="462c0819:PsiDirectoryNode" />
-              <item name="extra" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web_learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web_learn" type="462c0819:PsiDirectoryNode" />
-              <item name="01" type="462c0819:PsiDirectoryNode" />
-              <item name="this" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web_learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web_learn" type="462c0819:PsiDirectoryNode" />
-              <item name="01" type="462c0819:PsiDirectoryNode" />
-              <item name="函数模式" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web_learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web_learn" type="462c0819:PsiDirectoryNode" />
-              <item name="01" type="462c0819:PsiDirectoryNode" />
-              <item name="原型链" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web_learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web_learn" type="462c0819:PsiDirectoryNode" />
               <item name="02" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web_learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web_learn" type="462c0819:PsiDirectoryNode" />
-              <item name="02" type="462c0819:PsiDirectoryNode" />
-              <item name="正式课第二周第二天" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web_learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web_learn" type="462c0819:PsiDirectoryNode" />
-              <item name="02" type="462c0819:PsiDirectoryNode" />
-              <item name="正式课第二周第二天" type="462c0819:PsiDirectoryNode" />
-              <item name="tableSort" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -325,19 +267,19 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\Desktop\subtest\web_learn\01" />
-      <recent name="C:\Users\Administrator\Desktop\subtest\web_learn\原型链继承\01" />
-      <recent name="C:\Users\Administrator\Desktop\subtest\web_learn\dom\02节点关系" />
-      <recent name="C:\Users\Administrator\Desktop\subtest\web_learn\dom\获取元素" />
-      <recent name="C:\Users\Administrator\Desktop\subtest\web_learn\html5" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\Desktop\subtest\web_learn\02\json" />
       <recent name="C:\Users\Administrator\Desktop\subtest\web_learn\02" />
       <recent name="C:\Users\Administrator\Desktop\subtest\web_learn\原型链继承" />
       <recent name="C:\Users\Administrator\Desktop\subtest\web_learn\原型链" />
       <recent name="C:\Users\Administrator\Desktop\subtest\web_learn\作用域和this" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\subtest\web_learn\02" />
+      <recent name="C:\Users\Administrator\Desktop\subtest\web_learn\01" />
+      <recent name="C:\Users\Administrator\Desktop\subtest\web_learn\原型链继承\01" />
+      <recent name="C:\Users\Administrator\Desktop\subtest\web_learn\dom\02节点关系" />
+      <recent name="C:\Users\Administrator\Desktop\subtest\web_learn\dom\获取元素" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -352,10 +294,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.03.js">
+  <component name="RunManager" selected="Node.js.02.js">
     <configuration name="05.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web_learn/原型链/05.html" />
     <configuration name="06.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web_learn/原型链/06.html" />
-    <configuration name="03.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="$PROJECT_DIR$/01/作用域和this/03.js" working-dir="$PROJECT_DIR$/01/作用域和this" />
+    <configuration name="02.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="02.js" working-dir="$PROJECT_DIR$/02/json" />
     <configuration name="04.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="$PROJECT_DIR$/01/原型链/04.js" working-dir="$PROJECT_DIR$/01/原型链" />
     <configuration name="05.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="$PROJECT_DIR$/01/原型链/05.js" working-dir="$PROJECT_DIR$/01/原型链" />
     <configuration name="demo.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="demo.js" working-dir="$PROJECT_DIR$/原型链" />
@@ -368,18 +310,19 @@
       <envs />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.03.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.04.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.05.js" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.05.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.06.html" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.04.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.05.js" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.05.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.06.html" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.02.js" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.06.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.05.html" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.05.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.04.js" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.02.js" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.06.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.05.html" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.05.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.04.js" />
       </list>
     </recent_temporary>
   </component>
@@ -429,7 +372,7 @@
       <workItem from="1512738549980" duration="4016000" />
       <workItem from="1512786192239" duration="615000" />
       <workItem from="1512787959565" duration="36000" />
-      <workItem from="1513002297588" duration="1301000" />
+      <workItem from="1513002297588" duration="5923000" />
     </task>
     <task id="LOCAL-00001" summary="come on">
       <created>1510489744798</created>
@@ -522,22 +465,28 @@
       <option name="project" value="LOCAL" />
       <updated>1512738761014</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="json">
+      <created>1513003616385</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1513003616385</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119555000" />
+    <option name="totallyTimeSpent" value="124177000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1064" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17653278" sideWeight="0.4959255" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17653278" sideWeight="0.4959255" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33643773" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20045818" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20183486" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -598,43 +547,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/01/原型链继承/02.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01/原型链继承/03继承.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01/原型链继承/03.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="22" column="7" lean-forward="false" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/02/json/01.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02/正式课第二周第二天/tableSort/data.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -911,14 +827,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01/this/01.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/01/原型链/05.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -956,14 +864,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01/原型链/demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/02/正式课第二周第二天/tableSort/完整版表格排序.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
@@ -983,6 +883,62 @@
     <entry file="file://$PROJECT_DIR$/02/正式课第二周第二天/dom映射.png">
       <provider selected="true" editor-type-id="images">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02/正式课第二周第二天/tableSort/data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01/this/01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="32" column="14" lean-forward="true" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01/原型链/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02/json/02.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="577">
+          <caret line="30" column="17" lean-forward="true" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02/02.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02/03.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02/04.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>

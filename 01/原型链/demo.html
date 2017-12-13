@@ -7,17 +7,9 @@
 <body>
 <script>
     function Fn() {
-        this.x = 100;
+        var x = 100;
+        this.y = 200;
     }
-
-    Fn.prototype = {
-        a: function () {
-
-        }
-    };
-
-    var f = new Fn();
-    console.log(f.constructor);
 
 </script>
 </body>

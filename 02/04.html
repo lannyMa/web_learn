@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>call</title>
+</head>
+<body>
+<script>
+    // Function.prototype.call
+    // function fn() {
+    //
+    // }
+    // fn.call()
+
+    // call 用来改变this关键字的
+    var obj = {name: "maotai"};
+
+    function fn() {
+        console.log(this);
+    }
+
+    fn();
+    // obj.fn();
+    fn.call(obj);
+
+</script>
+</body>
+</html>

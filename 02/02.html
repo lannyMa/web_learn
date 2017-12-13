@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>数组的最大最小值</title>
+</head>
+<body>
+
+<script>
+
+    // 括号表达式
+    function fn1() {
+        console.log(1);
+    }
+
+    function fn2() {
+        console.log(this);
+    }
+    ;(fn2)(); // -> 2
+    ;(fn1, fn2)(); // ->2
+
+    console.log('--------------');
+
+    var obj = {name: "zf", fn: fn2};
+    (fn2, obj.fn)(); // -> this-> window . 执行时候obj.fn里的this变成了windows. 原理是: 将fn的值付给obj.fn后执行
+</script>
+
+
+</body>
+</html>
